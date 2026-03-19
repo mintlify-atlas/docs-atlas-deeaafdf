@@ -1,0 +1,66 @@
+{
+  "projectType": "general",
+  "projectName": "Color Me",
+  "projectDescription": "Browser extension that lets you customize the color of your browser and mess around with color theory",
+  "theme": "linden",
+  "primaryColor": "#0665fc",
+  "lightColor": "#7cb4fc",
+  "darkColor": "#04a4ec",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/color-wheel",
+              "features/light-dark-mode",
+              "features/saved-colors",
+              "features/theme-customization"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/building",
+              "development/live-reload",
+              "development/packaging"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "support/faq",
+              "support/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Interactive color wheel picker for precise color selection",
+    "Light and dark mode toggle with independent color themes",
+    "Save and manage favorite colors for quick access",
+    "Real-time browser theme customization",
+    "Cross-browser support (Chrome, Firefox, Opera, Edge)"
+  ],
+  "publicApiSurface": [
+    "Popup component with color wheel interface",
+    "ColorTable component for saved color management",
+    "setTheme function for applying browser themes",
+    "changeMode function for switching light/dark modes",
+    "updateColor function for color updates",
+    "storage utilities for persisting user preferences",
+    "Background script with tab and message handling"
+  ]
+}
